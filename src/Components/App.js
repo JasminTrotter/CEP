@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import './../App.css';
+import '../styles/App.css';
 import {HashRouter as Router, Route, Link} from 'react-router-dom'; 
 import Navbar from './Navbar';
 import Header from './Header';
 import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Testimonials from './Testimonials';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -16,6 +20,10 @@ class App extends Component {
             
             <main>
               <Route exact path="/" component={Home} />
+              <Route exact path="/" component={About} />
+              <Route exact path="/" component={Services} />
+              <Route exact path="/" component={Testimonials} />
+              <Route exact path="/" component={Contact} />
 
             </main>
 
