@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Header.css';
 
 export default function Header(props) {
 	return(
-		<header className="App-header">
+		<header className="Header">
           <h1>CEP Communications</h1>
         </header>
 	);
