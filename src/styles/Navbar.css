@@ -1,0 +1,79 @@
+
+.hamburger {
+	background-color: white;
+	color: #040706;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.hamburger:active, .hamburger:hover, .hamburger:focus {
+	background-color: #CC8E83;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 999;
+    padding-left: 25px;
+    top: -18px;
+    position: relative;
+}
+
+.desktop-nav {
+ 	column-count: 8;
+ 	margin-left: auto;
+	display: flex;
+	font-size: 16px;
+	height: 25px;
+	left: 0;
+	width: 100%;
+}
+
+.desktop-nav div {
+    display: flex;
+}
+
+.mobile-nav div div {
+    margin-top: 10px;
+}
+
+.fa {
+    font-size: 40px;
+}
+
+button {
+    border: none;
+}
+
+
+@media all and (max-width: 921px) {
+	.imagine {
+		width: 60%;
+		float: none;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.desktop-nav {
+		display: none;
+    }
+    .mobile-nav {
+		display: block;
+	}
+	nav {
+		width: 200px;
+		background-color: transparent;
+		border-radius: 3px;
+	}
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 636px) {
+
+}
+
+@media all and (max-width: 425px) {
+
+}
