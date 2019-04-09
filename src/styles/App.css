@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color: #2E5660;
+  width: 100%;
 }
 
 .App {
@@ -16,6 +17,15 @@ h1, h2, h3, h4 {
   font-family: 'Inconsolata', monospace;    
 }
 
+h2 {
+  background-color: #DEFCF1;
+}
+
 a {
   text-decoration: none;
+}
+
+main {
+  width: 90%;
+  margin: auto;
 }
