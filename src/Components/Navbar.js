@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Link} from 'react-router-dom';
 import '../styles/Navbar.css';
 
 export default class Navbar extends React.Component {
@@ -31,7 +31,7 @@ export default class Navbar extends React.Component {
                   return (
                         <div className="navbar">
                               <nav className="mobile-nav">
-                                    <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i class="fa fa-angle-double-up"></i></button>
+                                    <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i className="fa fa-angle-double-up"></i></button>
                                     <div className="link-container">
                                           {navLinks}
                                     </div>
@@ -47,7 +47,7 @@ export default class Navbar extends React.Component {
             		</nav>
                         
                         <nav className="mobile-nav hidden">
-                              <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i class="fa fa-angle-double-down"></i></button>
+                              <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i className="fa fa-angle-double-down"></i></button>
                         </nav>
                   
                   </div>

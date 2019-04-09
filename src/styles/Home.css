@@ -32,4 +32,47 @@
 
 .logo-container div {
     margin-bottom: 15px;
+    position: relative;
+}
+
+.read-more {
+    background-color: #FDEEED;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.stock-photo img {
+    border-radius: 3px;
+}
+
+@media all and (min-width: 580px) {
+    .intro-blurb {
+        display: flex;
+    }
+    .blurb {
+        margin-right: 25px;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .client-logos div:nth-child(even) {
+        right: 35px;
+    }
+    
+    .client-logos div:nth-child(odd) {
+        left: 35px;
+    }
+}
+
+@media all and (min-width: 581px) {
+    .logo-container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .logo-container div {
+        margin: auto;
+        margin-top: 25px;
+    }
+
 }
