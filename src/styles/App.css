@@ -13,6 +13,10 @@
 	display: none;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Inconsolata', monospace;    
 }
@@ -28,32 +32,9 @@ a {
 main {
   width: 90%;
   margin: auto;
+  max-width: 750px;
 }
 
-footer {
-  background-color: #FDEEED;
-  padding: 25px;
-  border-top: #2E5660 3px solid;
-  text-align: center;
-}
-
-.contact-links {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
-
-.contact-link {
-  width: 100px;
-}
-
-footer button {
-  background-color: transparent;
-  width: 100px;
-}
-
-footer .fab, footer .far {
-  font-size: 50px;
+button:hover {
+  cursor: pointer;
 }
