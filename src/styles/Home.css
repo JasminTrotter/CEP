@@ -1,0 +1,35 @@
+.light, .dark, .white {
+    width: 200px;
+    height: 200px;
+    padding: 25px 0px;
+    border-radius: 50%;
+    border: #2E5660 2px solid;
+    text-align: center;
+    line-height: 200px;
+}
+
+.light {
+    background-color: #FDEEED;
+}
+
+.dark {
+    background-color: #2E5660;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 65%;
+}
+
+.logo-container {
+    text-align: center;
+    margin: auto;
+    width: 200px;
+}
+
+.logo-container div {
+    margin-bottom: 15px;
+}

@@ -3,7 +3,8 @@
 	background-color: white;
 	color: #040706;
 	cursor: pointer;
-	text-decoration: none;
+    text-decoration: none;
+    width: 0px;
 }
 
 .hamburger:active, .hamburger:hover, .hamburger:focus {
@@ -14,7 +15,7 @@
     width: 100%;
     z-index: 999;
     padding-left: 25px;
-    top: -18px;
+    top: -20px;
     position: relative;
 }
 
