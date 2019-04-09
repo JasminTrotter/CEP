@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Link} from 'react-router-dom';
+// eslint-disable-next-line 
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 export default class Navbar extends React.Component {
