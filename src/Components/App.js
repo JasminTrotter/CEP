@@ -8,7 +8,6 @@ import About from './About';
 import Services from './Services';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
-import gmail from '../assets/logos/gmaillogo.png'
 
 class App extends Component {
   render() {
