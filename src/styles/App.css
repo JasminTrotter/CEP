@@ -1,11 +1,7 @@
 * {
   box-sizing: border-box;
   color: #2E5660;
-  margin: 5px;
-}
-
-.hidden {
-	display: none;
+  width: 100%;
 }
 
 .App {
@@ -13,6 +9,51 @@
   height: 100vh;
 }
 
+.hidden {
+	display: none;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Inconsolata', monospace;    
+}
+
+h2 {
+  background-color: #DEFCF1;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+footer {
+  background-color: #FDEEED;
+  padding: 25px;
+  border-top: #2E5660 3px solid;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.contact-link {
+  width: 100px;
+}
+
+footer button {
+  background-color: transparent;
+  width: 100px;
+}
+
+footer .fab, footer .far {
+  font-size: 50px;
 }

@@ -3,11 +3,7 @@
 	color: #040706;
 	cursor: pointer;
     text-decoration: none;
-    width: 0px;
-}
-
-.hamburger:active, .hamburger:hover, .hamburger:focus {
-	background-color: #CC8E83;
+    width: 50px;
 }
 
 .navbar {

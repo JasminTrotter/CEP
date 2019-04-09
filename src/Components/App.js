@@ -8,6 +8,7 @@ import About from './About';
 import Services from './Services';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
+import gmail from '../assets/logos/gmaillogo.png'
 
 class App extends Component {
   render() {
@@ -24,9 +25,25 @@ class App extends Component {
               <Route exact path="/" component={Services} />
               <Route exact path="/" component={Testimonials} />
               <Route exact path="/" component={Contact} />
-
             </main>
+            <footer>
+              <div class="contact-links">
+                  <div class="contact-link">
+                      <button onClick={() => window.open('mailto:tess@cepcommunications.com')}>
+                      <i class="far fa-envelope"></i>
+                      </button> 
+                  </div>
 
+                  <div class="contact-link">
+                      <button onClick={() => window.open('https://www.instagram.com/tess.trotter/')}>
+                      <i class="fab fa-instagram"></i>
+                      </button>
+                  </div>
+              </div>
+              <p id="location">
+                &#128205; Based in (but not limited to) Los Angeles, CA.
+                </p>
+            </footer>
           </div>
         </Router>
       </div>

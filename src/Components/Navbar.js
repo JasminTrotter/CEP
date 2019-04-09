@@ -1,17 +1,18 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import '../styles/Navbar.css';
 
 export default class Navbar extends React.Component {
       constructor(props) {
         super(props);
         // this.addActiveClass= this.addActiveClass.bind(this);
         this.state = {
-            active: false,
+            isHamburgerOpen: false,
         };
        }
           hamburgerShow() {
-              const currentState = this.state.active;
-              this.setState({ active: !currentState });
+              const currentState = this.state.isHamburgerOpen;
+              this.setState({ isHamburgerOpen: !currentState });
           };
       
  
@@ -19,36 +20,34 @@ export default class Navbar extends React.Component {
       render() {
 
             const navLinks = <div>
-                                    <Link to="/" className="navlink">Home</Link>
-                                    <Link to="/about" className="navlink">About</Link>
-                                    <Link to="/services" className="navlink">Services</Link>
-                                    <Link to="/testimonials" className="navlink">Testimonials</Link>
-                                    <Link to="/contact" className="navlink">Contact</Link> 
+                                    <div><Link to="/" className="navlink">Home</Link></div>
+                                    <div><Link to="/about" className="navlink">About</Link></div>
+                                    <div><Link to="/services" className="navlink">Services</Link></div>
+                                    <div><Link to="/testimonials" className="navlink">Testimonials</Link></div>
+                                    <div><Link to="/contact" className="navlink">Contact</Link></div>
                               </div>
 
-            if(this.state.active) {
+            if(this.state.isHamburgerOpen) {
                   return (
-                        <nav className="mobileNav">
-                              <div className="link-container">
-                                    {navLinks}
-                              </div>
-                              <button className="hamburger" onClick={()=>{this.hamburgerShow()}}>Menu <i class="fa fa-angle-double-up"></i></button>
-                                                      
-                        </nav>
-
+                        <div className="navbar">
+                              <nav className="mobile-nav">
+                                    <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i class="fa fa-angle-double-up"></i></button>
+                                    <div className="link-container">
+                                          {navLinks}
+                                    </div>
+                              </nav>
+                        </div>
                   );
 
             }
       	return (
       		<div className="navbar">
-            		<nav className="desktopNav">
+            		<nav className="desktop-nav">
                               {navLinks}
             		</nav>
                         
-                        <nav className="mobileNav hidden">
-                              <div className="link-container">
-                              </div>
-                              <button className="hamburger" onClick={()=>{this.hamburgerShow()}}>Menu <i class="fa fa-angle-double-down"></i></button>
+                        <nav className="mobile-nav hidden">
+                              <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i class="fa fa-angle-double-down"></i></button>
                         </nav>
                   
                   </div>
