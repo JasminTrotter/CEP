@@ -1,32 +1,28 @@
 import React from 'react';
-// eslint-disable-next-line 
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import '../styles/Navbar.css';
+import NavLinks from './NavLinks';
 
 export default class Navbar extends React.Component {
       constructor(props) {
         super(props);
-        // this.addActiveClass= this.addActiveClass.bind(this);
         this.state = {
             isHamburgerOpen: false,
         };
-       }
-          hamburgerShow() {
-              const currentState = this.state.isHamburgerOpen;
-              this.setState({ isHamburgerOpen: !currentState });
-          };
+
+        this.closeHamburger = this.closeHamburger.bind(this);
+      }
       
+      hamburgerShow() {
+            const currentState = this.state.isHamburgerOpen;
+            this.setState({ isHamburgerOpen: !currentState });
+      };
+
+      closeHamburger() {
+            this.setState({isHamburgerOpen: false});
+      }
  
 
       render() {
-
-            const navLinks = <div>
-                                    <div><Link to="/" className="navlink">Home</Link></div>
-                                    <div><Link to="/about" className="navlink">About</Link></div>
-                                    <div><Link to="/services" className="navlink">Services</Link></div>
-                                    <div><Link to="/testimonials" className="navlink">Testimonials</Link></div>
-                                    <div><Link to="/contact" className="navlink">Contact</Link></div>
-                              </div>
 
             if(this.state.isHamburgerOpen) {
                   return (
@@ -34,7 +30,9 @@ export default class Navbar extends React.Component {
                               <nav className="mobile-nav">
                                     <button className="hamburger" onClick={()=>{this.hamburgerShow()}}><i className="fa fa-angle-double-up"></i></button>
                                     <div className="link-container">
-                                          {navLinks}
+                                          <NavLinks
+                                                closeHamburger={this.closeHamburger}
+                                          />
                                     </div>
                               </nav>
                         </div>
@@ -44,7 +42,9 @@ export default class Navbar extends React.Component {
       	return (
       		<div className="navbar">
             		<nav className="desktop-nav">
-                              {navLinks}
+                              <NavLinks 
+                                    closeHamburger={this.closeHamburger}
+                              />
             		</nav>
                         
                         <nav className="mobile-nav hidden">
