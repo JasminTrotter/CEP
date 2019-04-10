@@ -25,6 +25,10 @@ h2 {
   background-color: #DEFCF1;
 }
 
+h3 {
+  border-bottom: 2px solid #FDEEED;
+}
+
 a {
   text-decoration: none;
 }
