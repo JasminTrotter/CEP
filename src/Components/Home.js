@@ -20,14 +20,14 @@ export default class Home extends React.Component {
 		return (
 			
 			<div className="Home">
-				<section className="intro-blurb">
-					<div className="blurb">
+				<section className="photo-section">
+					<div className="photo-section-text">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</p>
 						<button className="read-more">Read More</button>	
 					</div>
-					<div className="stock-photo">
+					<div className="photo-container">
 						<img src={stock} alt="stock for CEP Communications marketing" />
 					</div>
 				</section>

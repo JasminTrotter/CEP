@@ -41,17 +41,8 @@
     margin-bottom: 15px;
 }
 
-.stock-photo img {
+.photo-container img {
     border-radius: 3px;
-}
-
-@media all and (min-width: 580px) {
-    .intro-blurb {
-        display: flex;
-    }
-    .blurb {
-        margin-right: 25px;
-    }
 }
 
 @media all and (max-width: 580px) {
