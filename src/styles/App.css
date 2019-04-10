@@ -38,3 +38,21 @@ main {
 button:hover {
   cursor: pointer;
 }
+
+@media all and (min-width: 580px) {
+  .photo-section {
+      display: flex;
+  }
+  .photo-section-text {
+      margin-right: 25px;
+  }
+}
+
+@media all and (max-width: 579px) {
+  .photo-container {
+      display: block;
+  }
+  .photo-section-text {
+      margin-right: 0px;
+  }
+}

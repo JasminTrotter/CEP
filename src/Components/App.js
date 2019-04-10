@@ -21,10 +21,10 @@ class App extends Component {
             
             <main>
               <Route exact path="/" component={Home} />
-              <Route exact path="/" component={About} />
-              <Route exact path="/" component={Services} />
-              <Route exact path="/" component={Testimonials} />
-              <Route exact path="/" component={Contact} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/services" component={Services} />
+              <Route exact path="/testimonials" component={Testimonials} />
+              <Route exact path="/contact" component={Contact} />
             </main>
             <div style={{height:'60px'}}></div>
             <Footer />
