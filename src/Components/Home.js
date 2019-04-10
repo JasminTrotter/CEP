@@ -9,7 +9,8 @@ import Eevoy from '../assets/images/Eevoy.png';
 import hobknobin from '../assets/images/hobknobin.png';
 import GetALoveLife from '../assets/images/get-a-love-life.png'
 import LeeTaylorNelms from '../assets/images/LeeTaylorNelms.png';
-
+// eslint-disable-next-line
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class Home extends React.Component {
 	componentDidMount() {
@@ -25,7 +26,11 @@ export default class Home extends React.Component {
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</p>
-						<button className="read-more">Read More</button>	
+						<Link to="/about">
+							<div className="read-more">
+								<span>Read More</span>
+							</div>
+						</Link>
 					</div>
 					<div className="photo-container">
 						<img src={stock} alt="stock for CEP Communications marketing" />

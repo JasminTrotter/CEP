@@ -12,8 +12,8 @@ export default function NavLinks(props) {
         {link: "/contact", label: "Contact"}
     ];
 
-    const navLinks = links.map((link) => {
-        return <div><Link to={link.link} className="navlink" onClick={() => props.closeHamburger()}>{link.label}</Link></div>
+    const navLinks = links.map((link, index) => {
+        return <div key={index}><Link to={link.link} className="navlink" onClick={() => props.closeHamburger()}>{link.label}</Link></div>
     });
 
     return(
