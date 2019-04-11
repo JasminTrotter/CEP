@@ -1,0 +1,12 @@
+.testimonial-item {
+    margin-bottom: 40px;  
+}
+
+.testimonial-item i {
+    width: 20px;
+    margin: 10px;
+}
+
+.testimonial-item div {
+    display: inline;
+}
