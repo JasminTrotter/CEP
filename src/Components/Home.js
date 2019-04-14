@@ -11,10 +11,16 @@ import GetALoveLife from '../assets/images/get-a-love-life.png'
 import LeeTaylorNelms from '../assets/images/LeeTaylorNelms.png';
 // eslint-disable-next-line
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
+import Slider from './PhotoSlider/Slider';
+
 
 export default class Home extends React.Component {
+	constructor(props) {
+		super(props);
+	}
 	componentDidMount() {
-  		window.scrollTo(0, 0)
+		window.scrollTo(0, 0);
+		this.props.isHome();
 	}
 
 	render() {
