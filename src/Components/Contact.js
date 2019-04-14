@@ -1,9 +1,19 @@
 import React from 'react';
 
-export default function Contact(props) {
-	return(
-		<div className="Contact-container">
-          
-        </div>
-	);
+export default class Contact extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+	componentDidMount() {
+		window.scrollTo(0, 0);
+		this.props.isHome();
+	}
+	
+	render() {
+		return(
+			<div className="Contact-container">
+			  
+			</div>
+		);
+	}
 }
