@@ -17,7 +17,7 @@ export default class Contact extends React.Component {
 				<p>
 					Take the first step towards growing your digital presence! Fill out this contact form and I will be in touch to set up a call.
 				</p>
-				<form action="https://formspree.io/jasminmtrotter@gmail.com" method="POST">
+				<form action="https://formspree.io/tess@cepcommunications.com" method="POST">
 					<div>
 						<label>Name:</label>
 						<input type="text" name="name" />
