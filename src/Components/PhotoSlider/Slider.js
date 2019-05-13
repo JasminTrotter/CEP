@@ -20,7 +20,7 @@ export default class Slider extends React.Component {
         },
         { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg",
           headline: "Promote",
-          tagline: "CShare your company’s unique mission and vision through effective marketing campaigns."
+          tagline: "Share your company’s unique mission and vision through effective marketing campaigns."
         }
       ],
       currentIndex: 0,
