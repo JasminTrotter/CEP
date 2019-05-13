@@ -43,6 +43,11 @@ button:hover {
   cursor: pointer;
 }
 
+.service-includes {
+  left: 25px;
+  position: relative;
+}
+
 @media all and (min-width: 580px) {
   .photo-section {
       display: flex;

@@ -11,37 +11,17 @@ export default class Slider extends React.Component {
     this.state = {
       images: [
         { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/aurora.jpg",
-          headline: "Lorem Ipsum",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+          headline: "Connect",
+          tagline: "Create an online presence that resonates with your audience."          
         },
         { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/canyon.jpg",
-          headline: "Lorem Ipsum 2",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+          headline: "Engage",
+          tagline: "Organically grow a following and create solid relationships with influencers in your space."
         },
         { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg",
-          headline: "Lorem Ipsum 3",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
-        { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/desert.jpg",
-          headline: "Lorem Ipsum 4",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
-        { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/mountains.jpg",
-          headline: "Lorem Ipsum 5",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
-        { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/redsky.jpg",
-          headline: "Lorem Ipsum 6",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
-        { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/sandy-shores.jpg",
-          headline: "Lorem Ipsum 7",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
-        { url: "https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/tree-of-life.jpg",
-          headline: "Lorem Ipsum 8",
-          tagline: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-        },
+          headline: "Promote",
+          tagline: "CShare your company’s unique mission and vision through effective marketing campaigns."
+        }
       ],
       currentIndex: 0,
       translateValue: 0

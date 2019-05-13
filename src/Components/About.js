@@ -14,27 +14,20 @@ export default class About extends React.Component {
 		return(
 			<div className="About-container">
 				<section>
-					<h2>Lorem Ipsum</h2>
+					<h2>About Tess</h2>
 					<div className="photo-section">
-						<p className="photo-section-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<div className="photo-section-text">
+							<p>
+								Tess Trotter graduated from Georgetown University with a B.A. in English. While working at a non-profit as a Communications Associate, she gained extensive experience in building brand awareness, social media management and writing/editing. Because of this experience, she started CEP Communications (Connect. Engage. Promote.) in 2016.
+							</p>
+							<p>
+								CEP Communications assists with results-oriented social media management and advertising, SEO, email marketing and various other communications collateral.
+							</p>
+						</div>
 						<div className="photo-container">
 							<img src={aboutTess} alt="tess trotter" />
 						</div>
 					</div>
-				</section>
-				<section>
-					<h2>Lorem Ipsum</h2>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</section>
-				<section>
-					<h2>Lorem Ipsum</h2>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
 				</section>
 			</div>
 		);
