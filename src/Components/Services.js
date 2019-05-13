@@ -68,14 +68,16 @@ export default class Services extends React.Component {
 				<section>
 					<h2>Email Marketing</h2>
 					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						Email marketing campaigns are an effective way to nurture existing leads. Keep them up-to-date with company news, offer discounts, etc.
 					</p>
-				</section>
-				<section>
-					<h2>5. Lorem Ipsum</h2>
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-					</p>
+					<div className="service-includes">
+						<p><b>Service includes:</b></p>
+						<ul>
+							<li>Email template design</li>
+							<li>Campaign creation</li>
+							<li>Content curation</li>
+						</ul>
+					</div>
 				</section>
 			</div>
 		);

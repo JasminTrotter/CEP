@@ -18,6 +18,9 @@ export default class Contact extends React.Component {
 	render() {
 		return(
 			<div className="Contact-container">
+				<p>
+					Take the first step towards growing your digital presence! Fill out this contact form and I will be in touch to set up a call.
+				</p>
 				<form action="https://formspree.io/jasminmtrotter@gmail.com" method="POST">
 					<label>Name:</label>
 					<input type="text" name="name" />
@@ -33,5 +36,3 @@ export default class Contact extends React.Component {
 		);
 	}
 }
-
-// pattern="^[2-9]\d{2}-\d{3}-\d{4}$"

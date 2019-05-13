@@ -18,60 +18,48 @@ export default class Testimonials extends React.Component {
 					<div className="quote-block">
 						<i className="fas fa-quote-left"></i>
 							<div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+								It has been a pleasure working with Tess. She is great at what she does and maintains professionalism at all times.
 							</div>
 						<i className="fas fa-quote-right"></i>
 					</div>
 					<p className="attribution-block">
-						<em>-- Lorem Ipsum, Dolor Sit Amet Company</em>
+						<em>-- EEVOY</em>
 					</p>
 				</section>
 				<section className="testimonial-item">
 					<div className="quote-block">
 						<i className="fas fa-quote-left"></i>
 							<div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+								Tess is very professional and willing to help where needed! She has great ideas and was able to help us develop a good social media strategy. Thanks Tess!
 							</div>
 						<i className="fas fa-quote-right"></i>
 					</div>
 					<p className="attribution-block">
-						<em>-- Lorem Ipsum, Dolor Sit Amet Company</em>
+						<em>-- National Real Estate Management Group</em>
 					</p>
 				</section>
 				<section className="testimonial-item">
 					<div className="quote-block">
 						<i className="fas fa-quote-left"></i>
 							<div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+								It's been an absolute joy to work with Tess. She did a fantastic job assisting me with social media and marketing tasks, with my new program launch, always ready with solid recommendations to build/grow and readiness to get things done quickly and effortlessly. I look forward to working with her on my upcoming projects in the upcoming year.
 							</div>
 						<i className="fas fa-quote-right"></i>
 					</div>
 					<p className="attribution-block">
-						<em>-- Lorem Ipsum, Dolor Sit Amet Company</em>
+						<em>-- My Amazing LYFE</em>
 					</p>
 				</section>
 				<section className="testimonial-item">
 					<div className="quote-block">
 						<i className="fas fa-quote-left"></i>
 							<div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							Tess has been an absolute pleasure working with! She did an excellent job providing original organic content to my Facebook page. Thank you.
 							</div>
 						<i className="fas fa-quote-right"></i>
 					</div>
 					<p className="attribution-block">
-						<em>-- Lorem Ipsum, Dolor Sit Amet Company</em>
-					</p>
-				</section>
-				<section className="testimonial-item">
-					<div className="quote-block">
-						<i className="fas fa-quote-left"></i>
-							<div>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-							</div>
-						<i className="fas fa-quote-right"></i>
-					</div>
-					<p className="attribution-block">
-						<em>-- Lorem Ipsum, Dolor Sit Amet Company</em>
+						<em>-- Hobknobin</em>
 					</p>
 				</section>
 			</div>
