@@ -13,38 +13,66 @@ export default class Services extends React.Component {
 	render() {
 		return(
 			<div className="Services-container">
-				<h2>Services</h2>
 				<section>
-					<h3>1. Lorem Ipsum</h3>
+					<h2>Social Media Management</h2>
 					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					Social media management provides a way to continuously push out brand content and bring in new leads. Frequent activity on social media gives your brand a more personable and approachable essence.
 					</p>
+					<div className="service-includes">
+						<p><b>Service includes:</b></p>
+						<ul>
+							<li>Social media audit</li>
+							<li>Social media recommendations and strategy</li>
+							<li>Monthly social media calendar</li>
+							<li>Daily engagement (commenting, liking, responding to questions, etc.)</li>
+							<li>Monthly reports on social channel growth</li>
+						</ul>
+					</div>
 				</section>
 				<section>
-					<h3>2. Lorem Ipsum</h3>
+					<h2>Social Media Advertising </h2>
 					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+						Social media advertising helps increase your digital reach, ultimately driving traffic to your website and increasing sales.
 					</p>
+					<div className="service-includes">
+						<p><b>Service includes:</b></p>
+						<ul>
+							<li>Campaign recommendations and strategy</li>
+							<li>Campaign content creation</li>
+							<li>Target demographic research and testing</li>
+							<li>A/B testing</li>
+							<li>Reporting</li>
+						</ul>
+					</div>
 				</section>
 				<section>
-					<h3>3. Lorem Ipsum</h3>
+					<h2>SEO</h2>
 					<div className="photo-section">
-						<p className="photo-section-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
+						<div>
+							<p className="photo-section-text">
+								SEO helps boost search engine visibility and drive traffic to your website.
+							</p>
+							<div className="service-includes">
+								<p><b>Service includes:</b></p>
+								<ul>
+									<li>Website content audit</li>
+									<li>Website content curation</li>
+								</ul>
+							</div>
+						</div>
 						<div className="photo-container">
 							<img src={computer} alt="tess trotter" />
 						</div>
 					</div>
 				</section>
 				<section>
-					<h3>4. Lorem Ipsum</h3>
+					<h2>Email Marketing</h2>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 					</p>
 				</section>
 				<section>
-					<h3>5. Lorem Ipsum</h3>
+					<h2>5. Lorem Ipsum</h2>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 					</p>

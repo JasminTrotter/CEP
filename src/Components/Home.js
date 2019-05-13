@@ -30,7 +30,7 @@ export default class Home extends React.Component {
 				<section className="photo-section">
 					<div className="photo-section-text">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							CEP Communications assists with results-oriented social media management and advertising, SEO, email marketing and various other communications collateral.
 						</p>
 						<Link to="/about">
 							<div className="read-more">
@@ -44,13 +44,17 @@ export default class Home extends React.Component {
 				</section>
 				<section className="list-of-services">
 					<h2>Services</h2>
-					<ul>
-						<li>Lorem Ipsum</li>
-						<li>Dolor Sit Amet</li>
-						<li>Consectetur Adipiscing Elit</li>
-						<li>Sed do Eiusmod Tempor Incididunt ut Labore et Dolore Magna Aliqua</li>
-						<li>Ut Enim ad Minim Veniam</li>
-					</ul>
+					<Link to="/services">
+						<ul>
+							<li>Social Media Page Management </li>
+							<li>Social Media Advertising</li>
+							<li>SEO</li>
+							<li>Email Marketing</li>
+						</ul>
+						<div className="read-more">
+							<span>Read More</span>
+						</div>
+					</Link>
 				</section>
 				<section className="client-logos">
 					<h2>Clients</h2>
