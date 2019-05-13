@@ -1,10 +1,6 @@
 import React from 'react';
 import PhoneInput, { format, normalize } from "react-phone-input-auto-format";
- 
-const onChange = phoneNumber => {
-  const formatted = format(phoneNumber);
-  const normalized = normalize(phoneNumber);
-};
+import '../styles/Contact.css';
 
 export default class Contact extends React.Component {
 	constructor(props) {
@@ -22,15 +18,23 @@ export default class Contact extends React.Component {
 					Take the first step towards growing your digital presence! Fill out this contact form and I will be in touch to set up a call.
 				</p>
 				<form action="https://formspree.io/jasminmtrotter@gmail.com" method="POST">
-					<label>Name:</label>
-					<input type="text" name="name" />
-					<label>Email:</label>
-					<input type="email" name="_replyto" />
-					<label>Phone:</label>
-					<PhoneInput name="phone" />
-					<label>Message:</label>
-					<textarea name="message"></textarea>
-					<input type="submit" value="Send" />
+					<div>
+						<label>Name:</label>
+						<input type="text" name="name" />
+					</div>
+					<div>
+						<label>Email:</label>
+						<input type="email" name="_replyto" />
+					</div>
+					<div>
+						<label>Phone:</label>
+						<PhoneInput name="phone" />
+					</div>
+					<div>
+						<label>Message:</label>
+						<textarea name="message"></textarea>
+					</div>
+					<input className="submit-button" type="submit" value="Send" />
 				</form>
 			</div>
 		);

@@ -35,7 +35,7 @@
     position: relative;
 }
 
-.read-more {
+.read-more, .submit-button {
     background-color: #FDEEED;
     font-size: 15px;
     margin-bottom: 15px;
