@@ -35,7 +35,7 @@ export default class Slider extends React.Component {
   slideShow = () => {
     setTimeout(() => {
       this.goToNextSlide();
-    }, 3000);
+    }, 5000);
   }
 
   // goToPrevSlide = () => {
