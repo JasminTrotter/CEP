@@ -1,10 +1,7 @@
 import React from 'react';
-import aboutTess from '../assets/images/about-tess.png';
+import tessHeadshot from '../assets/images/tess-headshot.jpeg';
 
 export default class About extends React.Component {
-	constructor(props) {
-		super(props);
-	}
 	componentDidMount() {
 		window.scrollTo(0, 0);
 		this.props.isHome();
@@ -25,7 +22,7 @@ export default class About extends React.Component {
 							</p>
 						</div>
 						<div className="photo-container">
-							<img src={aboutTess} alt="tess trotter" />
+							<img src={tessHeadshot} alt="tess trotter" />
 						</div>
 					</div>
 				</section>
