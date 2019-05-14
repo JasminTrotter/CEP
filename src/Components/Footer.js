@@ -12,8 +12,14 @@ export default function Footer() {
                   </div>
 
                   <div className="contact-link">
-                      <button onClick={() => window.open('https://www.instagram.com/tess.trotter/')}>
+                      <button onClick={() => window.open('https://www.instagram.com/cepcommunications/')}>
                       <i className="fab fa-instagram"></i>
+                      </button>
+                  </div>
+
+                  <div className="contact-link">
+                      <button onClick={() => window.open('https://www.facebook.com/cepcommunications/')}>
+                      <i className="fab fa-facebook"></i>
                       </button>
                   </div>
               </div>
